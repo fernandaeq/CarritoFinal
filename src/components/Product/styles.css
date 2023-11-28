@@ -1,0 +1,45 @@
+.product {
+  width: 100px;
+  height: 150px;
+  border: 2px solid #19a7ce;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-table;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 16px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 13px;
+  background-color: #f6f1f1;
+  box-shadow: 5px 5px 5px #888888;
+}
+.addButton2 {
+  background-color: #19a7ce;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  margin: 0px 8px;
+}
+.addButton2:hover {
+  background-color: #146c94;
+}
+
+.addButton2:active {
+  background-color: #146c94;
+  box-shadow: 0 2px;
+  transform: translateY(1px);
+}
+.button {
+  margin-top: 10px;
+}
+h3 {
+  margin: 0px 0px;
+}
+h2 {
+  font-size: 15px;
+  font-family: "Bebas Neue", sans-serif;
+}
+.emptyDescription {
+  height: 20px;
+}

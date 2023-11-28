@@ -1,0 +1,39 @@
+.carga {
+  width: 350px;
+  height: 350px;
+  /* background-color: #19a7ce; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+.addButton {
+  background-color: #19a7ce;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.addButton:hover {
+  background-color: #146c94;
+}
+
+.addButton:active {
+  background-color: #146c94;
+  box-shadow: 0 5px;
+  transform: translateY(3px);
+}
+input {
+  margin-top: 10px;
+}
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+label {
+  font-family: "Quicksand", sans-serif;
+  font-size: 10px;
+}
